@@ -1,2 +1,7 @@
 def add():
   return "hi bro"
+
+
+
+def mul():
+  return "mul"
