@@ -1,1 +1,3 @@
-jhvhddhewkhewkhwebkewhb
+def func():
+  return  "function"
+  
