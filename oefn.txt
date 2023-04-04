@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def add():
 <<<<<<< HEAD
   return "hi bro"
@@ -8,3 +9,6 @@ def mul():
   return "mul"
 =======
 >>>>>>> 38b71ac15b357077705be0cea55760ab7a03c434
+=======
+    
+>>>>>>> 0bfa79c1c7d6be6162e30049bb816e730eb65bc8
