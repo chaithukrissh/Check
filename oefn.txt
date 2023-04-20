@@ -2,7 +2,7 @@ def add():
 <<<<<<< HEAD
   return "hi bro"
 
-
+hello from this side
 
 def mul():
   return "mul"
