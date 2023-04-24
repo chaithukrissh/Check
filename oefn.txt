@@ -1,10 +1,1 @@
-def add():
-<<<<<<< HEAD
-  return "hi bro"
-
-hello from this side
-
-def mul():
-  return "mul"
-=======
->>>>>>> 38b71ac15b357077705be0cea55760ab7a03c434
+hello world
