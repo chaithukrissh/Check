@@ -1,24 +1,33 @@
 version: 0.2
 
+
 phases:
-  install:
-    runtime-versions:
-      nodejs: 14  # You can specify your desired Node.js version here.
-
-  pre_build:
-    commands:
-      - npm install  # Replace with your package manager's command if not using npm.
-
   build:
     commands:
-      - npm run build  # Replace with your build/test commands.
-      - npm test       # Add any additional test or build commands here.
+      - python -c "print('Hello, World!')"  # Run a Python script to print "Hello, World!"
 
 artifacts:
-  files:
-    - '**/*'  # Include all files in the build artifacts.
+  files: []  # No specific artifacts to output.
 
-cache:
-  paths:
-    - node_modules  # Cache the node_modules directory to speed up future builds.
+  #phases:
+  #install:
+  #  runtime-versions:
+  #    nodejs: 14  # You can specify your desired Node.js version here.
+
+  #pre_build:
+  #  commands:
+  #    - npm install  # Replace with your package manager's command if not using npm.
+
+  #build:
+  #  commands:
+  #    - npm run build  # Replace with your build/test commands.
+  #    - npm test       # Add any additional test or build commands here.
+
+  #artifacts:
+  #files:
+  #  - '**/*'  # Include all files in the build artifacts.
+
+  #cache:
+  #paths:
+  #  - node_modules  # Cache the node_modules directory to speed up future builds.
 
